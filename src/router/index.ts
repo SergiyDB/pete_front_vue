@@ -56,7 +56,8 @@ export default route(function (/* { store, ssrContext } */) {
     } else if (
       isUserLoggedIn
       && (
-        to.path === '/auth'
+        to.path === '/'
+        ||to.path === '/auth'
         || to.path === '/auth/sign-in'
         || to.path === '/auth/sign-up'
         || to.path === '/auth/sign-up/school'
