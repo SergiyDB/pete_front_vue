@@ -50,7 +50,7 @@ module.exports = configure(function (/* ctx */) {
         browser: [ 'es2019', 'edge88', 'firefox78', 'chrome87', 'safari13.1' ],
         node: 'node20',
         publicPath: '/',
-        distDir: 'dist',
+        distDir: 'dist/spa',
         vueRouterMode: 'history', // если используете режим истории роутера
       },
 
