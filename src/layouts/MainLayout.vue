@@ -2,9 +2,8 @@
   <q-layout view="lHh Lpr lFf">
     <q-header elevated>
       <q-toolbar class="q-px-xl">
-
         <q-avatar>
-          <img src="src/assets/images/logos/robo_logo.jpg">
+          <img src="/assets/images/logos/robo_logo.jpg" />
         </q-avatar>
         <!-- <q-btn
           flat
@@ -15,16 +14,12 @@
           @click="toggleLeftDrawer"
         /> -->
 
-        <q-separator vertical spaced color="white"/>
+        <q-separator vertical spaced color="white" />
 
-        <q-toolbar-title>
-          P3T3 Learning Management System
-        </q-toolbar-title>
+        <q-toolbar-title> P3T3 Learning Management System </q-toolbar-title>
 
         <!-- <div>Quasar v{{ $q.version }}</div> -->
       </q-toolbar>
-
-
     </q-header>
 
     <!-- <q-drawer
@@ -58,7 +53,7 @@
 // import EssentialLink, { EssentialLinkProps } from 'components/EssentialLink.vue';
 
 defineOptions({
-  name: 'MainLayout'
+  name: 'MainLayout',
 });
 
 // const linksList: EssentialLinkProps[] = [
