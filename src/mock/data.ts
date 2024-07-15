@@ -15,7 +15,7 @@ export const Users: User[] = [
     user_role: 'admin',
     user_type: 'company',
     company_id: 1,
-    imageUrl: '/assets/images/avatars/male-01.jpg',
+    imageUrl: '/static/images/avatars/male-01.jpg',
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ export const Users: User[] = [
     user_role: 'teacher',
     user_type: 'school',
     school_id: 2,
-    imageUrl: '/assets/images/avatars/female-01.jpg',
+    imageUrl: '/static/images/avatars/female-01.jpg',
     // imageUrl: '',
   },
   {
@@ -35,7 +35,7 @@ export const Users: User[] = [
     password: 'password789',
     user_role: 'teacher',
     user_type: 'tutor',
-    imageUrl: '/assets/images/avatars/male-02.jpg',
+    imageUrl: '/static/images/avatars/male-02.jpg',
   },
   {
     id: 4,
@@ -45,7 +45,7 @@ export const Users: User[] = [
     user_role: 'admin',
     user_type: 'school',
     school_id: 3,
-    imageUrl: '/assets/images/avatars/female-02.jpg',
+    imageUrl: '/static/images/avatars/female-02.jpg',
   },
   {
     id: 5,
@@ -55,7 +55,7 @@ export const Users: User[] = [
     user_role: 'teacher',
     user_type: 'company',
     company_id: 4,
-    imageUrl: '/assets/images/avatars/male-03.jpg',
+    imageUrl: '/static/images/avatars/male-03.jpg',
   },
   {
     id: 6,
@@ -64,7 +64,7 @@ export const Users: User[] = [
     password: 'password303',
     user_role: 'admin',
     user_type: 'tutor',
-    imageUrl: '/assets/images/avatars/female-03.jpg',
+    imageUrl: '/static/images/avatars/female-03.jpg',
   },
   {
     id: 7,
@@ -74,7 +74,7 @@ export const Users: User[] = [
     user_role: 'teacher',
     user_type: 'school',
     school_id: 5,
-    imageUrl: '/assets/images/avatars/male-04.jpg',
+    imageUrl: '/static/images/avatars/male-04.jpg',
   },
   {
     id: 8,
@@ -84,7 +84,7 @@ export const Users: User[] = [
     user_role: 'admin',
     user_type: 'company',
     company_id: 6,
-    imageUrl: '/assets/images/avatars/female-04.jpg',
+    imageUrl: '/static/images/avatars/female-04.jpg',
   },
   {
     id: 9,
@@ -93,7 +93,7 @@ export const Users: User[] = [
     password: 'password606',
     user_role: 'teacher',
     user_type: 'tutor',
-    imageUrl: '/assets/images/avatars/male-05.jpg',
+    imageUrl: '/static/images/avatars/male-05.jpg',
   },
   {
     id: 10,
@@ -103,7 +103,7 @@ export const Users: User[] = [
     user_role: 'admin',
     user_type: 'school',
     school_id: 7,
-    imageUrl: '/assets/images/avatars/female-05.jpg',
+    imageUrl: '/static/images/avatars/female-05.jpg',
   },
   {
     id: 11,
@@ -113,7 +113,7 @@ export const Users: User[] = [
     user_role: 'teacher',
     user_type: 'company',
     company_id: 8,
-    imageUrl: '/assets/images/avatars/male-06.jpg',
+    imageUrl: '/static/images/avatars/male-06.jpg',
   },
   {
     id: 12,
@@ -122,7 +122,7 @@ export const Users: User[] = [
     password: 'password909',
     user_role: 'admin',
     user_type: 'tutor',
-    imageUrl: '/assets/images/avatars/female-06.jpg',
+    imageUrl: '/static/images/avatars/female-06.jpg',
   },
   {
     id: 13,
@@ -132,7 +132,7 @@ export const Users: User[] = [
     user_role: 'teacher',
     user_type: 'school',
     school_id: 9,
-    imageUrl: '/assets/images/avatars/male-07.jpg',
+    imageUrl: '/static/images/avatars/male-07.jpg',
   },
   {
     id: 14,
@@ -142,7 +142,7 @@ export const Users: User[] = [
     user_role: 'admin',
     user_type: 'company',
     company_id: 10,
-    imageUrl: '/assets/images/avatars/female-07.jpg',
+    imageUrl: '/static/images/avatars/female-07.jpg',
   },
   {
     id: 15,
@@ -151,7 +151,7 @@ export const Users: User[] = [
     password: 'password222',
     user_role: 'teacher',
     user_type: 'tutor',
-    imageUrl: '/assets/images/avatars/male-08.jpg',
+    imageUrl: '/static/images/avatars/male-08.jpg',
   },
 ];
 
@@ -585,7 +585,7 @@ export const teacherSummaryData = [
   {
     id: '1',
     name: 'Anthony Bush',
-    imageSrc: '/assets/images/avatars/male-20.jpg',
+    imageSrc: '/static/images/avatars/male-20.jpg',
     averageIndicatorsData: {
       'ave-cefr': {
         title: 'Ave CEFR',
@@ -695,7 +695,7 @@ export const teacherSummaryData = [
   {
     id: '2',
     name: 'Sarah Johnson',
-    imageSrc: '/assets/images/avatars/female-20.jpg',
+    imageSrc: '/static/images/avatars/female-20.jpg',
     averageIndicatorsData: {
       'ave-cefr': {
         title: 'Ave CEFR',
@@ -805,7 +805,7 @@ export const teacherSummaryData = [
   {
     id: '3',
     name: 'Michael Lee',
-    imageSrc: '/assets/images/avatars/male-19.jpg',
+    imageSrc: '/static/images/avatars/male-19.jpg',
     averageIndicatorsData: {
       'ave-cefr': {
         title: 'Ave CEFR',
@@ -915,7 +915,7 @@ export const teacherSummaryData = [
   {
     id: '4',
     name: 'Emma Brown',
-    imageSrc: '/assets/images/avatars/female-19.jpg',
+    imageSrc: '/static/images/avatars/female-19.jpg',
     averageIndicatorsData: {
       'ave-cefr': {
         title: 'Ave CEFR',
@@ -951,7 +951,7 @@ export const teacherSummaryData = [
   {
     id: '5',
     name: 'David Wilson',
-    imageSrc: '/assets/images/avatars/male-18.jpg',
+    imageSrc: '/static/images/avatars/male-18.jpg',
     averageIndicatorsData: {
       'ave-cefr': {
         title: 'Ave CEFR',
@@ -1061,7 +1061,7 @@ export const teacherSummaryData = [
   {
     id: '6',
     name: 'Elizabeth Taylor',
-    imageSrc: '/assets/images/avatars/female-18.jpg',
+    imageSrc: '/static/images/avatars/female-18.jpg',
     averageIndicatorsData: {
       'ave-cefr': {
         title: 'Ave CEFR',
@@ -1171,7 +1171,7 @@ export const teacherSummaryData = [
   {
     id: '7',
     name: 'Emily Davis',
-    imageSrc: '/assets/images/avatars/female-17.jpg',
+    imageSrc: '/static/images/avatars/female-17.jpg',
     averageIndicatorsData: {
       'ave-cefr': {
         title: 'Ave CEFR',
@@ -1281,7 +1281,7 @@ export const teacherSummaryData = [
   {
     id: '8',
     name: 'Christopher Moore',
-    imageSrc: '/assets/images/avatars/male-17.jpg',
+    imageSrc: '/static/images/avatars/male-17.jpg',
     averageIndicatorsData: {
       'ave-cefr': {
         title: 'Ave CEFR',
@@ -1392,7 +1392,7 @@ export const teacherSummaryData = [
   {
     id: '9',
     name: 'Daniel Taylor',
-    imageSrc: '/assets/images/avatars/male-16.jpg',
+    imageSrc: '/static/images/avatars/male-16.jpg',
     averageIndicatorsData: {
       'ave-cefr': {
         title: 'Ave CEFR',
@@ -1504,7 +1504,7 @@ export const teacherSummaryData = [
 export const studentSummaryData = [
   {
     id: '1',
-    imageSrc: '/assets/images/avatars/male-01.jpg',
+    imageSrc: '/static/images/avatars/male-01.jpg',
     name: 'Andrés Cataño',
     teacher: 'Anthony Bush',
     grade: '11 C',
@@ -1579,7 +1579,7 @@ export const studentSummaryData = [
   },
   {
     id: '2',
-    imageSrc: '/assets/images/avatars/female-01.jpg',
+    imageSrc: '/static/images/avatars/female-01.jpg',
     name: 'Maria Garcia',
     teacher: 'Sarah Johnson',
     grade: '10 A',
@@ -1654,7 +1654,7 @@ export const studentSummaryData = [
   },
   {
     id: '3',
-    imageSrc: '/assets/images/avatars/male-02.jpg',
+    imageSrc: '/static/images/avatars/male-02.jpg',
     name: 'John Doe',
     teacher: 'Michael Lee',
     grade: '9 B',
@@ -1729,7 +1729,7 @@ export const studentSummaryData = [
   },
   {
     id: '4',
-    imageSrc: '/assets/images/avatars/female-02.jpg',
+    imageSrc: '/static/images/avatars/female-02.jpg',
     name: 'Jane Smith',
     teacher: 'Emma Brown',
     grade: '10 A',
@@ -1804,7 +1804,7 @@ export const studentSummaryData = [
   },
   {
     id: '5',
-    imageSrc: '/assets/images/avatars/male-03.jpg',
+    imageSrc: '/static/images/avatars/male-03.jpg',
     name: 'Pedro Alvarez',
     teacher: 'David Wilson',
     grade: '12 B',
@@ -1879,7 +1879,7 @@ export const studentSummaryData = [
   },
   {
     id: '6',
-    imageSrc: '/assets/images/avatars/female-03.jpg',
+    imageSrc: '/static/images/avatars/female-03.jpg',
     name: 'Sophia Martinez',
     teacher: 'Elizabeth Taylor',
     grade: '9 A',
@@ -1954,7 +1954,7 @@ export const studentSummaryData = [
   },
   {
     id: '7',
-    imageSrc: '/assets/images/avatars/male-04.jpg',
+    imageSrc: '/static/images/avatars/male-04.jpg',
     name: 'Liam Johnson',
     teacher: 'Michael Lee',
     grade: '10 B',
@@ -2029,7 +2029,7 @@ export const studentSummaryData = [
   },
   {
     id: '8',
-    imageSrc: '/assets/images/avatars/female-04.jpg',
+    imageSrc: '/static/images/avatars/female-04.jpg',
     name: 'Olivia Brown',
     teacher: 'Emily Davis',
     grade: '12 C',
@@ -2104,7 +2104,7 @@ export const studentSummaryData = [
   },
   {
     id: '9',
-    imageSrc: '/assets/images/avatars/male-05.jpg',
+    imageSrc: '/static/images/avatars/male-05.jpg',
     name: 'Noah Williams',
     teacher: 'Christopher Moore',
     grade: '11 A',
@@ -2179,7 +2179,7 @@ export const studentSummaryData = [
   },
   {
     id: '10',
-    imageSrc: '/assets/images/avatars/female-05.jpg',
+    imageSrc: '/static/images/avatars/female-05.jpg',
     name: 'Ava Jones',
     teacher: 'Daniel Taylor',
     grade: '11 B',
@@ -2254,7 +2254,7 @@ export const studentSummaryData = [
   },
   {
     id: '11',
-    imageSrc: '/assets/images/avatars/female-06.jpg',
+    imageSrc: '/static/images/avatars/female-06.jpg',
     name: 'Isabella Garcia',
     teacher: 'Anthony Bush',
     grade: '9 C',
@@ -2329,7 +2329,7 @@ export const studentSummaryData = [
   },
   {
     id: '12',
-    imageSrc: '/assets/images/avatars/male-06.jpg',
+    imageSrc: '/static/images/avatars/male-06.jpg',
     name: 'Ethan Thomas',
     teacher: 'Sarah Johnson',
     grade: '10 C',
@@ -2404,7 +2404,7 @@ export const studentSummaryData = [
   },
   {
     id: '13',
-    imageSrc: '/assets/images/avatars/female-07.jpg',
+    imageSrc: '/static/images/avatars/female-07.jpg',
     name: 'Mia White',
     teacher: 'David Wilson',
     grade: '12 A',
@@ -2479,7 +2479,7 @@ export const studentSummaryData = [
   },
   {
     id: '14',
-    imageSrc: '/assets/images/avatars/male-07.jpg',
+    imageSrc: '/static/images/avatars/male-07.jpg',
     name: 'Lucas Harris',
     teacher: 'Elizabeth Taylor',
     grade: '11 A',
@@ -2554,7 +2554,7 @@ export const studentSummaryData = [
   },
   {
     id: '15',
-    imageSrc: '/assets/images/avatars/female-08.jpg',
+    imageSrc: '/static/images/avatars/female-08.jpg',
     name: 'Amelia Martin',
     teacher: 'Emily Davis',
     grade: '11 A',
@@ -2632,7 +2632,7 @@ export const studentSummaryData = [
 export const schoolTeamMembersList = [
   {
     id: '2bfa2be5-7688-48d5-b5ac-dc0d9ac97f14',
-    avatar: '/assets/images/avatars/female-10.jpg',
+    avatar: '/static/images/avatars/female-10.jpg',
     name: 'Nadia Mcknight',
     email: 'nadiamcknight@mail.com',
     phone: '+1-943-511-2203',
@@ -2640,7 +2640,7 @@ export const schoolTeamMembersList = [
   },
   {
     id: '77a4383b-b5a5-4943-bc46-04c3431d1566',
-    avatar: '/assets/images/avatars/male-19.jpg',
+    avatar: '/static/images/avatars/male-19.jpg',
     name: 'Best Blackburn',
     email: 'blackburn.best@beadzza.me',
     phone: '+1-814-498-3701',
@@ -2648,7 +2648,7 @@ export const schoolTeamMembersList = [
   },
   {
     id: '8bb0f597-673a-47ca-8c77-2f83219cb9af',
-    avatar: '/assets/images/avatars/male-14.jpg',
+    avatar: '/static/images/avatars/male-14.jpg',
     name: 'Duncan Carver',
     email: 'duncancarver@mail.info',
     phone: '+1-968-547-2111',
@@ -2656,7 +2656,7 @@ export const schoolTeamMembersList = [
   },
   {
     id: 'c318e31f-1d74-49c5-8dae-2bc5805e2fdb',
-    avatar: '/assets/images/avatars/male-01.jpg',
+    avatar: '/static/images/avatars/male-01.jpg',
     name: 'Martin Richards',
     email: 'martinrichards@mail.biz',
     phone: '+1-902-500-2668',
@@ -2664,7 +2664,7 @@ export const schoolTeamMembersList = [
   },
   {
     id: '0a8bc517-631a-4a93-aacc-000fa2e8294c',
-    avatar: '/assets/images/avatars/female-20.jpg',
+    avatar: '/static/images/avatars/female-20.jpg',
     name: 'Candice Munoz',
     email: 'candicemunoz@mail.co.uk',
     phone: '+1-838-562-2769',
@@ -2672,7 +2672,7 @@ export const schoolTeamMembersList = [
   },
   {
     id: 'a4c9945a-757b-40b0-8942-d20e0543cabd',
-    avatar: '/assets/images/avatars/female-01.jpg',
+    avatar: '/static/images/avatars/female-01.jpg',
     name: 'Vickie Mosley',
     email: 'vickiemosley@mail.net',
     phone: '+1-939-555-3054',
@@ -2680,7 +2680,7 @@ export const schoolTeamMembersList = [
   },
   {
     id: 'b8258ccf-48b5-46a2-9c95-e0bd7580c645',
-    avatar: '/assets/images/avatars/female-02.jpg',
+    avatar: '/static/images/avatars/female-02.jpg',
     name: 'Tina Harris',
     email: 'tinaharris@mail.ca',
     phone: '+1-933-464-2431',
@@ -2688,7 +2688,7 @@ export const schoolTeamMembersList = [
   },
   {
     id: 'f004ea79-98fc-436c-9ba5-6cfe32fe583d',
-    avatar: '/assets/images/avatars/male-02.jpg',
+    avatar: '/static/images/avatars/male-02.jpg',
     name: 'Holt Manning',
     email: 'holtmanning@mail.org',
     phone: '+1-822-531-2600',
@@ -2696,7 +2696,7 @@ export const schoolTeamMembersList = [
   },
   {
     id: '8b69fe2d-d7cc-4a3d-983d-559173e37d37',
-    avatar: '/assets/images/avatars/female-03.jpg',
+    avatar: '/static/images/avatars/female-03.jpg',
     name: 'Misty Ramsey',
     email: 'mistyramsey@mail.us',
     phone: '+1-990-457-2106',
@@ -2874,7 +2874,7 @@ export const companyLevelProgressTrendLineData = {
 export const companyTeamMembersList = [
   {
     id: '3d74a3e5-8128-4c9e-b4ac-ec2d9ec88d14',
-    avatar: '/assets/images/avatars/female-12.jpg',
+    avatar: '/static/images/avatars/female-12.jpg',
     name: 'Emily Collins',
     email: 'emily.collins@mail.com',
     phone: '+1-943-521-2304',
@@ -2882,7 +2882,7 @@ export const companyTeamMembersList = [
   },
   {
     id: '57b4875d-c4a5-4983-bc96-04c4431e1637',
-    avatar: '/assets/images/avatars/male-18.jpg',
+    avatar: '/static/images/avatars/male-18.jpg',
     name: 'James Anderson',
     email: 'james.anderson@eduquality.me',
     phone: '+1-814-478-3752',
@@ -2890,7 +2890,7 @@ export const companyTeamMembersList = [
   },
   {
     id: '9cc2f627-673a-47ca-9c78-3f94219ec9bf',
-    avatar: '/assets/images/avatars/male-17.jpg',
+    avatar: '/static/images/avatars/male-17.jpg',
     name: 'Robert Martinez',
     email: 'robert.martinez@linguist.info',
     phone: '+1-968-547-2155',
@@ -2898,7 +2898,7 @@ export const companyTeamMembersList = [
   },
   {
     id: 'd439f21e-1d74-49d5-8dab-3fc5805e3bfb',
-    avatar: '/assets/images/avatars/male-03.jpg',
+    avatar: '/static/images/avatars/male-03.jpg',
     name: 'Michael Scott',
     email: 'michael.scott@mail.biz',
     phone: '+1-902-500-2668',
@@ -2906,7 +2906,7 @@ export const companyTeamMembersList = [
   },
   {
     id: '1b9df427-631a-4b93-aadc-111fa3e8395d',
-    avatar: '/assets/images/avatars/female-18.jpg',
+    avatar: '/static/images/avatars/female-18.jpg',
     name: 'Sophia Green',
     email: 'sophia.green@mail.co.uk',
     phone: '+1-838-562-2769',
@@ -2914,7 +2914,7 @@ export const companyTeamMembersList = [
   },
   {
     id: 'c5d1345b-757b-40c0-8943-d30e0644eacd',
-    avatar: '/assets/images/avatars/female-02.jpg',
+    avatar: '/static/images/avatars/female-02.jpg',
     name: 'Olivia Brown',
     email: 'olivia.brown@mail.net',
     phone: '+1-939-555-3054',
@@ -2922,7 +2922,7 @@ export const companyTeamMembersList = [
   },
   {
     id: 'd9329cdf-48b5-46a2-9d95-f1be7581d346',
-    avatar: '/assets/images/avatars/female-04.jpg',
+    avatar: '/static/images/avatars/female-04.jpg',
     name: 'Isabella Davis',
     email: 'isabella.davis@mail.ca',
     phone: '+1-933-464-2431',
@@ -2930,7 +2930,7 @@ export const companyTeamMembersList = [
   },
   {
     id: 'e105fa89-98fc-436c-9ba6-7dfe43fe684e',
-    avatar: '/assets/images/avatars/male-05.jpg',
+    avatar: '/static/images/avatars/male-05.jpg',
     name: 'Liam Wilson',
     email: 'liam.wilson@mail.org',
     phone: '+1-822-531-2600',
@@ -2938,7 +2938,7 @@ export const companyTeamMembersList = [
   },
   {
     id: '9b80fe3d-d7cc-4b3d-983e-669173e48e38',
-    avatar: '/assets/images/avatars/female-06.jpg',
+    avatar: '/static/images/avatars/female-06.jpg',
     name: 'Ava Lee',
     email: 'ava.lee@mail.us',
     phone: '+1-990-457-2106',

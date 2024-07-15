@@ -2,7 +2,7 @@
   <div class="column q-pa-md q-gutter-y-md" style="width: 500px; max-width: 800px">
 
     <q-avatar size="120px">
-      <img src="/assets/images/logos/robo_logo.jpg">
+      <img src="/static/images/logos/robo_logo.jpg">
     </q-avatar>
 
     <div class="text-h3 text-weight-bold">Sign In</div>

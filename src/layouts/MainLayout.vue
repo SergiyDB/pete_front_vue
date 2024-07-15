@@ -3,7 +3,7 @@
     <q-header elevated>
       <q-toolbar class="q-px-xl">
         <q-avatar>
-          <img src="/assets/images/logos/robo_logo.jpg" />
+          <img src="/static/images/logos/robo_logo.jpg" />
         </q-avatar>
         <!-- <q-btn
           flat
