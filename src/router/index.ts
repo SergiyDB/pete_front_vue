@@ -70,12 +70,8 @@ export default route(function (/* { store, ssrContext } */) {
         next({ path: '/school' });
       } else if (userType === 'company' || userType === 'tutor') {
         next({ path: '/company' });
-      } else {
-        next({ path: '/' });
       }
-    } else {
-      next();
-    }
+    } 
   });
 
   return Router;
